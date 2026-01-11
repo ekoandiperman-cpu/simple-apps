@@ -1,6 +1,7 @@
 services:
   apps:
     container_name: ct-simpleapps-andi
+    images: simpleapps-andi 
     build: ./apps
     ports:
       - "10010:3000"
